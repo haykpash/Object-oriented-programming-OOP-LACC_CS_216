@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: The `dayType` can be initialized
+Reason: None
+Timestamp: 2024-02-29 19:35:18.514204

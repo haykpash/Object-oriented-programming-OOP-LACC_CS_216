@@ -1,0 +1,15 @@
+#include "primeFactorizationImp.cpp"
+#include "integerManipulationImp.cpp"
+TEST(Prime, 2) {
+primeFactorization number;
+    number.setNum(67867979);
+
+    ASSERT_NO_THROW(number.factorization());
+}
+TEST(Prime, 1) {
+primeFactorization number;
+    number.setNum(123456789);
+
+   ASSERT_NO_THROW(number.factorization());
+}
+

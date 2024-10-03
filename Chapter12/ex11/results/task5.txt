@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: `orderedArrayListType`'s `seqSearch` method returns `-1` or  the position of an element if found in the list, test 1
+Reason: None
+Timestamp: 2024-03-27 02:07:01.356406
+
+Status: PASSED!
+Check: 2
+Test: `orderedArrayListType`'s `seqSearch` method returns `-1` or  the position of an element if found in the list, test 2
+Reason: None
+Timestamp: 2024-03-27 02:07:01.358936

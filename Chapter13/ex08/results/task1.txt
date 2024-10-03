@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: Overloading the `+` operator
+Reason: None
+Timestamp: 2024-04-01 02:28:07.911638
+
+Status: PASSED!
+Check: 2
+Test: Overloading the `*` operator
+Reason: None
+Timestamp: 2024-04-01 02:28:07.914155

@@ -1,0 +1,48 @@
+
+Status: PASSED!
+Check: 1
+Test: Overloading the `+` operator
+Reason: None
+Timestamp: 2024-03-31 19:15:11.838446
+
+Status: PASSED!
+Check: 2
+Test: Overloading the `-` operator
+Reason: None
+Timestamp: 2024-03-31 19:15:11.840788
+
+Status: PASSED!
+Check: 3
+Test: Overloading the postIncrement `++` operator
+Reason: None
+Timestamp: 2024-03-31 19:15:11.843185
+
+Status: PASSED!
+Check: 4
+Test: Overloading the preIncrement `++` operator
+Reason: None
+Timestamp: 2024-03-31 19:15:11.845441
+
+Status: PASSED!
+Check: 5
+Test: Overloading the postDecrement `--` operator
+Reason: None
+Timestamp: 2024-03-31 19:15:11.847704
+
+Status: PASSED!
+Check: 6
+Test: Overloading the preDecrement `--` operator
+Reason: None
+Timestamp: 2024-03-31 19:15:11.849954
+
+Status: PASSED!
+Check: 7
+Test: Overloading the `!=` operator
+Reason: None
+Timestamp: 2024-03-31 19:15:11.852301
+
+Status: PASSED!
+Check: 8
+Test: Overloading the `==` operator
+Reason: None
+Timestamp: 2024-03-31 19:15:11.854635

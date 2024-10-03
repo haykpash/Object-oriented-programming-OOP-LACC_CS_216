@@ -1,0 +1,7 @@
+
+Status: PASSED!
+Check: 1
+Test: Defined the `gcd` function
+Reason: int gcd (int first, int second)
+ + ` was found in the program.None
+Timestamp: 2024-04-02 19:56:04.532516

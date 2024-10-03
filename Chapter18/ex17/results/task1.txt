@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: Program Outputs Correctly
+Reason: None
+Timestamp: 2024-05-06 00:01:57.309201
+
+Status: PASSED!
+Check: 2
+Test: Did not hard code program output
+Reason: << 8 ` was found in the program.None
+Timestamp: 2024-05-06 00:01:57.309942

@@ -1,0 +1,7 @@
+
+Status: PASSED!
+Check: 1
+Test: Defined the `power` function
+Reason: int power (int base, int exponent)
+ + ` was found in the program.None
+Timestamp: 2024-04-02 19:38:51.060552

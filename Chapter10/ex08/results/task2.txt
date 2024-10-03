@@ -1,0 +1,18 @@
+
+Status: PASSED!
+Check: 1
+Test: The `dayType` member function `prevDay` works as expected
+Reason: None
+Timestamp: 2024-02-29 19:35:18.517405
+
+Status: PASSED!
+Check: 2
+Test: The `dayType` member variable `nextDay` works as expected
+Reason: None
+Timestamp: 2024-02-29 19:35:18.520340
+
+Status: PASSED!
+Check: 4
+Test: The `dayType` member variable `addDay` works as expected
+Reason: None
+Timestamp: 2024-02-29 19:35:18.526066

@@ -1,0 +1,18 @@
+
+Status: PASSED!
+Check: 1
+Test: `sqrt` prime number
+Reason: None
+Timestamp: 2024-04-02 17:28:55.994051
+
+Status: PASSED!
+Check: 2
+Test: `sqrt` even number
+Reason: None
+Timestamp: 2024-04-02 17:28:55.996326
+
+Status: PASSED!
+Check: 3
+Test: `sqrt` odd number
+Reason: None
+Timestamp: 2024-04-02 17:28:55.998461

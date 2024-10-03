@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: Palindrome Test
+Reason: None
+Timestamp: 2024-04-02 19:08:50.590616
+
+Status: PASSED!
+Check: 2
+Test: Non-palindrome Test
+Reason: None
+Timestamp: 2024-04-02 19:08:50.592916

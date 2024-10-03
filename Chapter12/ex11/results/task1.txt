@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: `orderedArrayListType`'s `insertAt` method inserts an item into the specified position of the list, test 1
+Reason: None
+Timestamp: 2024-03-27 02:07:01.333116
+
+Status: PASSED!
+Check: 2
+Test: `orderedArrayListType`'s `insertAt` method inserts an item into the specified position of the list, test 2
+Reason: None
+Timestamp: 2024-03-27 02:07:01.335761

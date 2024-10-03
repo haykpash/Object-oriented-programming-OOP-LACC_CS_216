@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 3
+Test: The `dayType` member variable `print` works as expected
+Reason: None
+Timestamp: 2024-02-29 19:35:18.523219

@@ -1,0 +1,1 @@
+**Task #02:** `seqOrdSearch` tested in *main.cpp*

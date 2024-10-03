@@ -1,0 +1,47 @@
+#include <iostream>
+#include "searchSortAlgorithms.h"
+using namespace std;
+
+int intList[] = {2, 56, 34, 25, 73, 
+                     46, 89, 10, 5, 16};
+
+double doubleList[] = {3.45, 2.34, 1.98, 55.43, 2.4353,4.5423};
+
+template <class elemType>
+void print(elemType list[], int length);
+
+TEST(Sort, 1) {
+ std::string output;
+
+testing::internal::CaptureStdout();
+print(intList, 10); 
+output = testing::internal::GetCapturedStdout();
+ASSERT_TRUE(output == "2 56 34 25 73 46 89 10 5 16 ");
+
+testing::internal::CaptureStdout();
+print(doubleList, 6); 
+output = testing::internal::GetCapturedStdout();
+ASSERT_TRUE(output == "3.45 2.34 1.98 55.43 2.4353 4.5423 ");
+
+
+modifiedBubbleSort(intList, 10);  
+testing::internal::CaptureStdout();
+print(intList, 10); 
+output = testing::internal::GetCapturedStdout();
+ASSERT_TRUE(output == "2 5 10 16 25 34 46 56 73 89 ");
+
+modifiedBubbleSort(doubleList, 6);  
+testing::internal::CaptureStdout();
+print(doubleList, 6); 
+output = testing::internal::GetCapturedStdout();
+ASSERT_TRUE(output == "1.98 2.34 2.4353 3.45 4.5423 55.43 ");
+}
+
+template <class elemType>
+void print(elemType list[], int length)
+{
+    for (int i = 0; i < length; i++)
+        cout << list[i] << " ";
+}
+
+

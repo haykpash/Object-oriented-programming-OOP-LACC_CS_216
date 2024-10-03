@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: Include *searchSortAlgorithms.h* in *main.cpp*
+Reason: \s*#\s*include\s*"searchSortAlgorithms.h".*` was found in the program.None
+Timestamp: 2024-04-16 17:09:52.718797
+
+Status: PASSED!
+Check: 2
+Test: Call `seqOrdSearch` in *main.cpp* to test the function
+Reason: pos = seqOrdSearch(intList, 10, 45);` was found in the program.None
+Timestamp: 2024-04-16 17:09:52.719086

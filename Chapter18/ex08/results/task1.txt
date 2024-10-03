@@ -1,0 +1,24 @@
+
+Status: PASSED!
+Check: 1
+Test: Include *searchSortAlgorithms.h* in *main.cpp*
+Reason: \s*#\s*include\s*"searchSortAlgorithms.h".*` was found in the program.None
+Timestamp: 2024-05-05 23:50:00.257986
+
+Status: PASSED!
+Check: 2
+Test: Call `insertionSort` from *main.cpp* to test it
+Reason:  insertionSort(intList, 10); ` was found in the program.None
+Timestamp: 2024-05-05 23:50:00.258347
+
+Status: PASSED!
+Check: 3
+Test: List sorted test 1
+Reason: None
+Timestamp: 2024-05-05 23:50:00.261053
+
+Status: PASSED!
+Check: 4
+Test: List sorted test 2
+Reason: None
+Timestamp: 2024-05-05 23:50:00.263200

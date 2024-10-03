@@ -1,0 +1,26 @@
+#include "circleType.h"
+#include "cylinderType.h"
+#include "cylinderTypeImp.cpp"
+#include "circleTypeImp.cpp"
+using namespace std;
+
+TEST(Cyl, 1) {
+    cylinderType cylinder1(4.5, 6.75);
+
+    ASSERT_NEAR(cylinder1.getHeight(), 6.75, 0.1);
+    ASSERT_NEAR(cylinder1.area(), 318.09, 0.1);
+    ASSERT_NEAR(cylinder1.volume(), 429.42, 0.1);
+
+}using namespace std;
+
+TEST(Cyl, 1) {
+    cylinderType cylinder2;
+
+    cylinder2.setRadius(3.75);
+    cylinder2.setHeight(8.25);
+
+    ASSERT_NEAR(cylinder2.getHeight(), 8.25, 0.1);
+    ASSERT_NEAR(cylinder2.area(), 282.74, 0.1);
+    ASSERT_NEAR(cylinder2.volume(), 364.47, 0.1);
+
+}

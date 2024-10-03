@@ -1,0 +1,22 @@
+#include "complexType.cpp"
+#include "complexType.h"
+complexType num1(7,3);
+complexType num2(5, 2);
+complexType num3(2,1);
+complexType num4(-2, -1);
+
+TEST(Subtract, 0) {
+    ASSERT_EQ((num1 - num2), num3);
+}
+
+TEST(Subtract, 1) {
+   ASSERT_EQ((num2 - num1), num4);
+}complexType num1(6,6);
+complexType num2(5,3);
+
+TEST(Division, 0) {
+testing::internal::CaptureStdout();
+std::cout << num1 / num2;
+std::string output = testing::internal::GetCapturedStdout();
+ASSERT_EQ(output, "(1.41176, 0.352941)");
+}

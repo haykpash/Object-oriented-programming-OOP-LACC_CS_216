@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: Overloaded operators as member functions
+Reason: rectangleType::operator++ + ` was found in the program.None
+Timestamp: 2024-03-30 20:11:57.524529

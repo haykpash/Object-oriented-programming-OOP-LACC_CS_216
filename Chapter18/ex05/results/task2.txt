@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: Include *searchSortAlgorithms.h* in *main.cpp*
+Reason: \s*#\s*include\s*"searchSortAlgorithms.h".*` was found in the program.None
+Timestamp: 2024-04-19 18:09:43.136791
+
+Status: PASSED!
+Check: 2
+Test: Call `modifiedBubbleSort` in *main.cpp* to test the function
+Reason: modifiedBubbleSort(intList, 10);` was found in the program.None
+Timestamp: 2024-04-19 18:09:43.137062

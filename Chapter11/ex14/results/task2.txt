@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: Non-prime number test 1
+Reason: None
+Timestamp: 2024-03-15 04:37:03.239932
+
+Status: PASSED!
+Check: 2
+Test: Non-prime number returns correct result
+Reason: None
+Timestamp: 2024-03-15 04:37:03.243615
